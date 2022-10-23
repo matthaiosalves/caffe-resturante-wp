@@ -1,0 +1,55 @@
+.header {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 544px;
+}
+.header .container-fluid {
+  max-width: 1123px;
+}
+.header .container-fluid .content {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header .container-fluid .content .boxTitle {
+  max-width: 591px;
+}
+.header .container-fluid .content .boxTitle .title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  color: var(--Black500);
+  margin-bottom: 25px;
+}
+.header .container-fluid .content .boxTitle .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.header .container-fluid .content .boxImage img {
+  max-width: 100%;
+  width: 100%;
+}
+.header .container-fluid .contentDelivery {
+  margin-top: -60px;
+}
+.header .container-fluid .contentDelivery .boxDescription {
+  max-width: 567px;
+}
+.header .container-fluid .contentDelivery .boxDescription .description {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header .container-fluid .contentDelivery .boxDescription .description .text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--Black200);
+}

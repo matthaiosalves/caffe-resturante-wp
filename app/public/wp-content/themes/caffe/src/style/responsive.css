@@ -1,0 +1,28 @@
+@media (max-width:1091px) {
+  .header .container-fluid .content {
+    justify-content: center;
+  }
+  .header .container-fluid .contentDelivery .boxDescription {
+    margin: 70px auto;
+  }
+}
+@media (max-width:992px) {
+  .navbar .container-fluid select#inputState {
+    width: 100%;
+    padding: 10px;
+  }
+  .navbar .container-fluid .imageLocal {
+    top: 13%;
+    left: 49%;
+    right: 50%;
+  }
+  .navbar .container-fluid .nav-item .btnCart img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width:485px) {
+  .header .container-fluid .content .boxTitle .title {
+    font-size: 32px;
+  }
+}

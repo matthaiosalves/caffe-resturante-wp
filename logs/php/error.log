@@ -1,0 +1,66 @@
+[22-Oct-2022 23:46:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php:11
+Stack trace:
+#0 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php(716): load_template('C:\\Users\\forca\\...', false, Array)
+#2 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\index.php(17): get_template_part('template-parts/...', 'products')
+#4 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\forca\\...')
+#5 C:\Users\forca\Local Sites\caffe\app\public\wp-blog-header.php(19): require_once('C:\\Users\\forca\\...')
+#6 C:\Users\forca\Local Sites\caffe\app\public\index.php(17): require('C:\\Users\\forca\\...')
+#7 {main}
+  thrown in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php on line 11
+[23-Oct-2022 00:01:23 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Term as array in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php:33
+Stack trace:
+#0 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php(716): load_template('C:\\Users\\forca\\...', false, Array)
+#2 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\index.php(17): get_template_part('template-parts/...', 'products')
+#4 C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\forca\\...')
+#5 C:\Users\forca\Local Sites\caffe\app\public\wp-blog-header.php(19): require_once('C:\\Users\\forca\\...')
+#6 C:\Users\forca\Local Sites\caffe\app\public\index.php(17): require('C:\\Users\\forca\\...')
+#7 {main}
+  thrown in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php on line 33
+[23-Oct-2022 00:45:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php on line 2
+[23-Oct-2022 00:45:12 UTC] PHP Stack trace:
+[23-Oct-2022 00:45:12 UTC] PHP   1. {main}() C:\Users\forca\Local Sites\caffe\app\public\index.php:0
+[23-Oct-2022 00:45:12 UTC] PHP   2. require() C:\Users\forca\Local Sites\caffe\app\public\index.php:17
+[23-Oct-2022 00:45:12 UTC] PHP   3. require_once() C:\Users\forca\Local Sites\caffe\app\public\wp-blog-header.php:19
+[23-Oct-2022 00:45:12 UTC] PHP   4. include() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template-loader.php:106
+[23-Oct-2022 00:45:12 UTC] PHP   5. get_template_part() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\index.php:17
+[23-Oct-2022 00:45:12 UTC] PHP   6. locate_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\general-template.php:204
+[23-Oct-2022 00:45:12 UTC] PHP   7. load_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:716
+[23-Oct-2022 00:45:12 UTC] PHP   8. require() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:772
+[23-Oct-2022 00:45:12 UTC] PHP   9. session_start() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php:2
+[23-Oct-2022 00:45:16 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php on line 2
+[23-Oct-2022 00:45:16 UTC] PHP Stack trace:
+[23-Oct-2022 00:45:16 UTC] PHP   1. {main}() C:\Users\forca\Local Sites\caffe\app\public\index.php:0
+[23-Oct-2022 00:45:16 UTC] PHP   2. require() C:\Users\forca\Local Sites\caffe\app\public\index.php:17
+[23-Oct-2022 00:45:16 UTC] PHP   3. require_once() C:\Users\forca\Local Sites\caffe\app\public\wp-blog-header.php:19
+[23-Oct-2022 00:45:16 UTC] PHP   4. include() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template-loader.php:106
+[23-Oct-2022 00:45:16 UTC] PHP   5. get_template_part() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\index.php:17
+[23-Oct-2022 00:45:16 UTC] PHP   6. locate_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\general-template.php:204
+[23-Oct-2022 00:45:16 UTC] PHP   7. load_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:716
+[23-Oct-2022 00:45:16 UTC] PHP   8. require() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:772
+[23-Oct-2022 00:45:16 UTC] PHP   9. session_start() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php:2
+[23-Oct-2022 00:45:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php on line 2
+[23-Oct-2022 00:45:19 UTC] PHP Stack trace:
+[23-Oct-2022 00:45:19 UTC] PHP   1. {main}() C:\Users\forca\Local Sites\caffe\app\public\index.php:0
+[23-Oct-2022 00:45:19 UTC] PHP   2. require() C:\Users\forca\Local Sites\caffe\app\public\index.php:17
+[23-Oct-2022 00:45:19 UTC] PHP   3. require_once() C:\Users\forca\Local Sites\caffe\app\public\wp-blog-header.php:19
+[23-Oct-2022 00:45:19 UTC] PHP   4. include() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template-loader.php:106
+[23-Oct-2022 00:45:19 UTC] PHP   5. get_template_part() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\index.php:17
+[23-Oct-2022 00:45:19 UTC] PHP   6. locate_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\general-template.php:204
+[23-Oct-2022 00:45:19 UTC] PHP   7. load_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:716
+[23-Oct-2022 00:45:19 UTC] PHP   8. require() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:772
+[23-Oct-2022 00:45:19 UTC] PHP   9. session_start() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php:2
+[23-Oct-2022 00:45:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php on line 2
+[23-Oct-2022 00:45:21 UTC] PHP Stack trace:
+[23-Oct-2022 00:45:21 UTC] PHP   1. {main}() C:\Users\forca\Local Sites\caffe\app\public\index.php:0
+[23-Oct-2022 00:45:21 UTC] PHP   2. require() C:\Users\forca\Local Sites\caffe\app\public\index.php:17
+[23-Oct-2022 00:45:21 UTC] PHP   3. require_once() C:\Users\forca\Local Sites\caffe\app\public\wp-blog-header.php:19
+[23-Oct-2022 00:45:21 UTC] PHP   4. include() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template-loader.php:106
+[23-Oct-2022 00:45:21 UTC] PHP   5. get_template_part() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\index.php:17
+[23-Oct-2022 00:45:21 UTC] PHP   6. locate_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\general-template.php:204
+[23-Oct-2022 00:45:21 UTC] PHP   7. load_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:716
+[23-Oct-2022 00:45:21 UTC] PHP   8. require() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:772
+[23-Oct-2022 00:45:21 UTC] PHP   9. session_start() C:\Users\forca\Local Sites\caffe\app\public\wp-content\themes\caffe\template-parts\products\component-products.php:2
