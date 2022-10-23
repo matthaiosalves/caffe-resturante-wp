@@ -217,3 +217,14 @@ function create_products() {
 }
 add_action( 'init', 'create_products' );
 
+
+/*DESABILITAR COMENTÁRIOS */
+function disable_media_comment( $open, $post_id ) {
+	$post = get_post( $post_id );
+	if( $post->post_type == 'attachment' ) {
+			return false;
+	}
+	return $open;
+}
+add_filter( 'comments_open', 'disable_media_comment', 10 , 2 );
+
