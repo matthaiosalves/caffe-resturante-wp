@@ -26,3 +26,12 @@ if($('.section--single-content')){
     $("a.btnDelivery").attr("href", "/finish?pagamento=Dinheiro&rua=" + logradouro + "&cidade=" + localidade + "&bairro=" + bairro)
   });
 }
+
+//Alerta para quando o carrinho estiver vazio
+if($('.section--single-content')){
+  $('.btnCart').click(function(){ 
+    alert("Seu carrinho está vazio! Selecione um produto.");
+  });
+}
+
+
