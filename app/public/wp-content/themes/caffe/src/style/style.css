@@ -5,3 +5,8 @@
 @import url('products.css');
 @import url('normalize.css');
 @import url('responsive.css');
+
+/*Single*/
+@import url('single/caffe-select.css');
+@import url('single/complete-order.css');
+@import url('single/single-content.css');

@@ -1,0 +1,83 @@
+.section--single-content .container-fluid .boxContentSelect {
+  max-width: 448px;
+  width: 100%;
+}
+.section--single-content .container-fluid .boxContentSelect .card {
+  border-radius: 6px 44px;
+  border: 0;
+  background-color: var(--OrangeLight);
+}
+.section--single-content .container-fluid .boxContentSelect .card .content {
+  padding: 40px;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxImage img {
+  width: 64px;
+  height: 64px;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxImage .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxImage .price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content hr {
+  color: var(--Grey100);
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 13.5px;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceItem,
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceDelivery, 
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceTotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceItem .title,
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceDelivery .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--Black200);
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceItem .price,
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceDelivery .price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--Black200);
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceTotal .title,
+.section--single-content .container-fluid .boxContentSelect .card .content .boxPrice .priceTotal .price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--Black300);
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .btnDelivery {
+  background-color: var(--Orange200);
+  color: var(--White);
+  border-radius: 6px;
+  padding: 12px 8px;
+  width: 368px;
+  max-width: 100%;
+  margin-top: 24px;
+
+  transition: all .2s;
+}
+.section--single-content .container-fluid .boxContentSelect .card .content .btnDelivery:hover {
+  filter: brightness(.85);
+}
