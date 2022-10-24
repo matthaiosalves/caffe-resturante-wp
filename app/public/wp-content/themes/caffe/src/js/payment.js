@@ -6,7 +6,20 @@ if($('.section--single-content')){
     $(this).children().show();
   });
 }
-
-$("#credito").click(function () {
-  alert("This is an alert message!");
-});
+if($('.section--single-content')){
+  $("#credito").click(function () {
+    let logradouro = $("#logradouro").val();
+    let localidade = $("#localidade").val();
+    $("a.btnDelivery").attr("href", "/finalizado.php?pagamento=Credito&rua=" + logradouro + "&cidade=" + localidade)
+  });
+  $("#debito").click(function () {
+    let logradouro = $("#logradouro").val();
+    let localidade = $("#localidade").val();
+    $("a.btnDelivery").attr("href", "/finalizado.php?pagamento=Debito&rua=" + logradouro + "&cidade=" + localidade)
+  });
+  $("#dinheiro").click(function () {
+    let logradouro = $("#logradouro").val();
+    let localidade = $("#localidade").val();
+    $("a.btnDelivery").attr("href", "/finalizado.php?pagamento=Dinheiro&rua=" + logradouro + "&cidade=" + localidade)
+  });
+}

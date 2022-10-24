@@ -57,7 +57,7 @@
               <ul>
                 <li><a class="btn-payment" id="credito"><img src="<?php echo get_template_directory_uri(); ?>/src/img/Single/credit-card.svg" alt="Cartão de Crédito" style="display: none;" />&nbsp;Cartão de crédito</a></li>
                 <li><a class="btn-payment" id="debito"><img src="<?php echo get_template_directory_uri(); ?>/src/img/Single/debit-card.svg" alt="Cartão de Débito" style="display: none;" />&nbsp;cartão de débito</a></li>
-                <li><a class="btn-payment"><img src="<?php echo get_template_directory_uri(); ?>/src/img/Single/money.svg" alt="Dinheiro" style="display: none;" />&nbsp;dinheiro</a></li>
+                <li><a class="btn-payment" id="dinheiro"><img src="<?php echo get_template_directory_uri(); ?>/src/img/Single/money.svg" alt="Dinheiro" style="display: none;" />&nbsp;dinheiro</a></li>
               </ul>
             </div>
           </div>
