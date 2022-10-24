@@ -6,3 +6,7 @@ if($('.section--single-content')){
     $(this).children().show();
   });
 }
+
+$("#credito").click(function () {
+  alert("This is an alert message!");
+});

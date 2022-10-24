@@ -22,7 +22,7 @@
         <?php while ($query->have_posts() ) : $query->the_post(); ?>
           <?php $getCategories = get_the_category($query->ID); ?>
           <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-5">
-            <a href="" class="card">
+            <a href="<?php the_permalink(); ?>" class="card">
               <div class="boxImage">
                 <img src="<?php the_post_thumbnail_url('full'); ?>" alt="">
               </div>

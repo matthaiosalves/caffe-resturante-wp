@@ -145,6 +145,9 @@ function caffe_scripts() {
 	wp_enqueue_script( 'caffe-cities', get_template_directory_uri() . '/src/js/cities.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'caffe-script', get_template_directory_uri() . '/src/js/script.js', array(), _S_VERSION, true );
 
+	wp_enqueue_script( 'caffe-address', get_template_directory_uri() . '/src/js/address.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'caffe-payment', get_template_directory_uri() . '/src/js/payment.js', array(), _S_VERSION, true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
