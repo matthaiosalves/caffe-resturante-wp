@@ -1,3 +1,12 @@
+<?php
+//Recebe os dados atráves do método GET vindo da página de checkout
+
+$city = $_GET["cidade"];
+$street = $_GET["rua"];
+$payment = $_GET["pagamento"];
+$ditrict = $_GET["bairro"];
+?>
+
 
 <section class="section--finish mt-5">
   <div class="container-fluid">
@@ -13,7 +22,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/src/img/Finish/local.svg" alt="Imagem de Localização">
               </div>
               <div class="description">
-                <p>Entrega em <strong>Rua João Daniel Martinelli, 102</strong><br> Farrapos - Porto Alegre, RS</p>
+                <p>Entrega em <strong><?php echo $street; ?></strong><br> <?php echo $ditrict; ?>, <?php echo $city; ?></p>
               </div>
             </div>
             <div class="timer">
@@ -32,7 +41,11 @@
               </div>
               <div class="description">
                 <p>Pagamento na entrega <br>
-                  <strong>Cartão de Crédito</strong>
+                  <?php if($payment === 'Dinheiro'): ?>
+                    <strong>Dinheiro</strong>
+                    <?php else: ?>
+                     <strong>Cartão de <?php echo $payment; ?></strong>
+                  <?php endif; ?>
                 </p>
               </div>
             </div>

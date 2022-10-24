@@ -10,16 +10,19 @@ if($('.section--single-content')){
   $("#credito").click(function () {
     let logradouro = $("#logradouro").val();
     let localidade = $("#localidade").val();
-    $("a.btnDelivery").attr("href", "/finalizado.php?pagamento=Credito&rua=" + logradouro + "&cidade=" + localidade)
+    let bairro = $("#bairro").val();
+    $("a.btnDelivery").attr("href", "/finish?pagamento=Credito&rua=" + logradouro + "&cidade=" + localidade + "&bairro=" + bairro)
   });
   $("#debito").click(function () {
     let logradouro = $("#logradouro").val();
     let localidade = $("#localidade").val();
-    $("a.btnDelivery").attr("href", "/finalizado.php?pagamento=Debito&rua=" + logradouro + "&cidade=" + localidade)
+    let bairro = $("#bairro").val();
+    $("a.btnDelivery").attr("href", "/finish?pagamento=Debito&rua=" + logradouro + "&cidade=" + localidade + "&bairro=" + bairro)
   });
   $("#dinheiro").click(function () {
     let logradouro = $("#logradouro").val();
     let localidade = $("#localidade").val();
-    $("a.btnDelivery").attr("href", "/finalizado.php?pagamento=Dinheiro&rua=" + logradouro + "&cidade=" + localidade)
+    let bairro = $("#bairro").val();
+    $("a.btnDelivery").attr("href", "/finish?pagamento=Dinheiro&rua=" + logradouro + "&cidade=" + localidade + "&bairro=" + bairro)
   });
 }
