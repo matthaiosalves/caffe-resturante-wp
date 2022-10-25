@@ -1,6 +1,6 @@
 # caffe-resturant-wp
  
-Project made in WordPress (PHP), Jquery and Javascript.
+Project made in WordPress (PHP), Bootstrap, Jquery and Javascript.
 
 Development of a website for a Café restaurant chain. It contains search for the customer's address, and the possibility of choosing the payment method. Finally, it has a final screen that renders the information previously reported.
 
