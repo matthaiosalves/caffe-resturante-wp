@@ -84,3 +84,15 @@ Stack trace:
 [24-Oct-2022 17:38:12 UTC] PHP   6. locate_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\general-template.php:204
 [24-Oct-2022 17:38:12 UTC] PHP   7. load_template() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:716
 [24-Oct-2022 17:38:12 UTC] PHP   8. require() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\template.php:772
+[26-Oct-2022 20:01:46 UTC] PHP Warning:  unlink(): No such file or directory in C:\Users\forca\Local Sites\caffe\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-setup-task.php on line 178
+[26-Oct-2022 20:01:46 UTC] PHP Stack trace:
+[26-Oct-2022 20:01:46 UTC] PHP   1. {main}() C:\Users\forca\Local Sites\caffe\app\public\wp-cron.php:0
+[26-Oct-2022 20:01:46 UTC] PHP   2. do_action_ref_array() C:\Users\forca\Local Sites\caffe\app\public\wp-cron.php:138
+[26-Oct-2022 20:01:46 UTC] PHP   3. WP_Hook->do_action() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\plugin.php:524
+[26-Oct-2022 20:01:46 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\class-wp-hook.php:331
+[26-Oct-2022 20:01:46 UTC] PHP   5. Simply_Static\Archive_Creation_Job->handle_cron_healthcheck() C:\Users\forca\Local Sites\caffe\app\public\wp-includes\class-wp-hook.php:307
+[26-Oct-2022 20:01:46 UTC] PHP   6. Simply_Static\Archive_Creation_Job->handle() C:\Users\forca\Local Sites\caffe\app\public\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:449
+[26-Oct-2022 20:01:46 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task() C:\Users\forca\Local Sites\caffe\app\public\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:301
+[26-Oct-2022 20:01:46 UTC] PHP   8. Simply_Static\Setup_Task->perform() C:\Users\forca\Local Sites\caffe\app\public\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:122
+[26-Oct-2022 20:01:46 UTC] PHP   9. Simply_Static\Setup_Task->delete_temp_static_files() C:\Users\forca\Local Sites\caffe\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-setup-task.php:26
+[26-Oct-2022 20:01:46 UTC] PHP  10. unlink() C:\Users\forca\Local Sites\caffe\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-setup-task.php:178

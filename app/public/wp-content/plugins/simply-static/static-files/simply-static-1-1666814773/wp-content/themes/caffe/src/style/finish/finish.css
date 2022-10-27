@@ -1,0 +1,67 @@
+.section--finish .container-fluid {
+  max-width: 1123px;
+}
+.section--finish .container-fluid .content {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.section--finish .container-fluid .content .boxText {
+  max-width: 526px;
+}
+.section--finish .container-fluid .content .boxImage {
+  max-width: 492px;
+}
+.section--finish .container-fluid .content .boxText .title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--Orange);
+}
+.section--finish .container-fluid .content .boxText .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.section--finish .container-fluid .content .boxText .descriptionDelivery {
+  position: relative;
+  background: 
+    linear-gradient(var(--White), var(--White)) padding-box,
+    linear-gradient(to right, var(--Orange200), var(--Purple200)) border-box;
+  border-radius: 6px 36px;
+  border: 2px solid transparent;
+  padding: 40px;
+}
+.section--finish .container-fluid .content .boxText .descriptionDelivery .street,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .timer,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .payment {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.section--finish .container-fluid .content .boxText .descriptionDelivery .street .image,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .timer .image,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .payment .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section--finish .container-fluid .content .boxText .descriptionDelivery .street .description,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .timer .description,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .payment .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--Black200);
+}
+.section--finish .container-fluid .content .boxText .descriptionDelivery .street .description p,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .timer .description p,
+.section--finish .container-fluid .content .boxText .descriptionDelivery .payment .description p {
+  margin: 0;
+}
+.section--finish .container-fluid .content .boxImage img {
+  max-width: 100%;
+  width: 100%;
+}

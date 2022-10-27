@@ -1,0 +1,70 @@
+.section--products .container-fluid {
+  max-width: 1123px;
+}
+.section--products .container-fluid .boxTitle .title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--Black300);
+}
+.section--products .container-fluid .card {
+  border: 0;
+  background-color: var(--OrangeLight);
+  border-radius: 6px 36px;
+
+  display: flex;
+  gap: 12px;
+  text-decoration:none;
+}
+.section--products .container-fluid .card .boxImage {
+  margin: 0 auto;
+}
+.section--products .container-fluid .card .boxImage img {
+  position: relative;
+  margin-top: -25px;
+}
+.section--products .container-fluid .card .content {
+  text-align: center;
+  padding: 0 20px;
+}
+.section--products .container-fluid .card .content .boxTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.section--products .container-fluid .card .content .boxTag .tag {
+  background-color: var(--YellowLight);
+  color: var(--Orange);
+  padding: 4px 8px;
+  border-radius: 100px;
+}
+.section--products .container-fluid .card .content .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--Black300);
+  margin-bottom: 8px;
+}
+.section--products .container-fluid .card .content .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--Grey);
+  margin-bottom: 20px;
+}
+.section--products .container-fluid .card .content .price {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--Black200);
+  padding-bottom: 20px;
+}
+.section--products .container-fluid .card .content .price span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--Black200);
+}

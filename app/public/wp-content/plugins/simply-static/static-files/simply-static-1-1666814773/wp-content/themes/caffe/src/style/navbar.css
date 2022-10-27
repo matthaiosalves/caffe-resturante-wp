@@ -1,0 +1,41 @@
+.bg-navbar {
+  background-color: var(--White) !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#navbarNav {
+  justify-content: flex-end;
+}
+.navbar .container-fluid {
+  max-width: 1123px;
+}
+.navbar .container-fluid .navbar-nav {
+  position: relative;
+  gap: 12px;
+}
+.btnLocal {
+  background-color: var(--PurpeLight) !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  color: var(--PurpeDark) !important;
+}
+.navbar .container-fluid .nav-item .btnCart {
+  background-color: var(--YellowLight);
+  border-radius: 4px;
+}
+.navbar .container-fluid select#inputState {
+  max-width: 100%;
+  width: 200px;
+}
+.navbar .container-fluid select#inputState,
+.navbar .container-fluid select#inputState option {
+  cursor: pointer;
+}
+.navbar .container-fluid select#inputState:focus {
+  border-color: var(--PurpeDark) !important;
+  box-shadow: var(--PurpeDark) !important;
+}
+.navbar .container-fluid .imageLocal {
+  position: absolute;
+  right: 25%;
+  top: 25%;
+}

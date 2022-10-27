@@ -1,0 +1,15 @@
+@import url('/wp-content/themes/caffe/src/style/global.css');
+@import url('/wp-content/themes/caffe/src/style/colors.css');
+@import url('/wp-content/themes/caffe/src/style/header.css');
+@import url('/wp-content/themes/caffe/src/style/navbar.css');
+@import url('/wp-content/themes/caffe/src/style/products.css');
+@import url('/wp-content/themes/caffe/src/style/normalize.css');
+@import url('/wp-content/themes/caffe/src/style/responsive.css');
+
+/*Single*/
+@import url('/wp-content/themes/caffe/src/style/single/caffe-select.css');
+@import url('/wp-content/themes/caffe/src/style/single/complete-order.css');
+@import url('/wp-content/themes/caffe/src/style/single/single-content.css');
+
+/*Finish*/
+@import url('/wp-content/themes/caffe/src/style/finish/finish.css');

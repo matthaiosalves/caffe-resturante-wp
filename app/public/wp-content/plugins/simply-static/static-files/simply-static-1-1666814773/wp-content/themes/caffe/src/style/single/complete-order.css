@@ -1,0 +1,100 @@
+.section--single-content .container-fluid .boxTitle .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--Black300);
+}
+.section--single-content .container-fluid .boxCep {
+  max-width: 640px;
+  width: 100%;
+}
+.section--single-content .container-fluid .boxCep .card {
+  border: 0;
+  background-color: var(--OrangeLight);
+  border-radius: 6px;
+}
+.section--single-content .container-fluid .boxCep .card .content {
+  padding: 40px;
+}
+.section--single-content .container-fluid .boxCep .card .content .boxPayment p,
+.section--single-content .container-fluid .boxCep .card .content .boxAddress p {
+  margin-left: 25px;
+}
+/*Método de Pagamento*/
+.section--single-content .container-fluid .boxCep .card .content .methodPayment ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+.section--single-content .container-fluid .boxCep .card .content .methodPayment ul li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--Black200);
+
+  width: 170px;
+  max-width: 100%;
+  height: 51px;
+  background-color: var(--Grey100);
+  border-radius: 6px;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: all .2s;
+}
+.section--single-content .container-fluid .boxCep .card .content .methodPayment ul li a:hover {
+  filter: brightness(.95);
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .input-group, 
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .input-group .form-control {
+  max-width: 200px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: var(--Grey100);
+  border: 1px solid var(--Grey100);
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .cep,
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .cep .form-control {
+  max-width: 200px;
+  width: 100%;
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .street,
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .street .form-control {
+  max-width: 100%;
+  width: 100%;
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .input-group .form-control:focus {
+  box-shadow: rgba(18, 19, 19, 0.25) 0px 0px 0px 0.25rem;
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .details {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .uf,
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .uf .form-control {
+  max-width: 52px;
+  width: 100%;
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .city,
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .city .form-control {
+  max-width: 266px;
+  width: 100%;
+}
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .bairro,
+.section--single-content .container-fluid .boxCep .card .content .boxAddress .bairro .form-control {
+  max-width: 192px;
+  width: 100%;
+}
+
