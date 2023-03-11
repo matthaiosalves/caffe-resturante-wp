@@ -201,7 +201,7 @@ function create_products() {
         'not_found' => "Nenhuma Produto foi encontrada",
         'not_found_in_trash' => "Nenhuma Produto no lixo"
       ],
-      'description' => 'Postagens do BLOG ESG',
+      'description' => 'Descrição',
       'public' => true,
       'publicly_queryable' => true,
       'query_var' => true,
