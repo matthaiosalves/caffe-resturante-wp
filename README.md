@@ -1,7 +1,7 @@
 # ☕ Caffè Restaurante WP
  
-Project made in WordPress (PHP), Bootstrap, Jquery and Javascript.
+Projeto desenvolvido em WordPress (PHP), Bootstrap, Jquery e Javascript.
 
-Development of a website for a Café restaurant chain. It contains search for the customer's address, and the possibility of choosing the payment method. Finally, it has a final screen that renders the information previously reported.
+Desenvolvimento de um site para uma rede de cafeterias. Contém a busca pelo endereço do cliente e a possibilidade de escolher a forma de pagamento. Por fim, possui uma tela final que renderiza as informações informadas anteriormente.
 
-In addition to having the options to add, edit and delete products in the system.
+Além de possuir as opções para adicionar, editar e excluir produtos no sistema.
