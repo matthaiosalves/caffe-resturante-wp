@@ -1,4 +1,4 @@
-# caffe-resturant-wp
+# ☕ Caffè Restaurante WP
  
 Project made in WordPress (PHP), Bootstrap, Jquery and Javascript.
 
